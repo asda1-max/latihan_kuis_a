@@ -68,7 +68,7 @@ class LoginPage extends StatelessWidget {
               width: 350,
               padding: EdgeInsets.fromLTRB(40, 20, 0, 0),
               child: ElevatedButton(onPressed: (){
-                if(_usrcontroller.text == "user" && _pwcontroller.text == "user"){
+                if(_usrcontroller.text == "071" && _pwcontroller.text == "071"){
                   Navigator.push(context, MaterialPageRoute(builder: (context)=>MovieListPage()));
                 }
               }
